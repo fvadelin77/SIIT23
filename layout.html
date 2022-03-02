@@ -14,6 +14,9 @@
         width: 30px;
         height: 30px;
       }
+      table, th, td {
+        border:1px transparent rgb(6, 0, 0);
+      }
     </style>
   </head>
   <body>
@@ -37,18 +40,59 @@
         <button>JAVA</button>
         <button>SQL</button>
         <button>PYTHON</button>
+        <button>
+          <img class="icon" src="menu.png" />
+        </button>
+        <button>
+          <img class="icon" src="menu.png" />
+        </button>
+        <button>
+          <img class="icon" src="menu.png" />
+        </button>
     </div>
     <div id="content">
       <h1>HTML ELEMENT REFERENCE</h1>
-      <div id="contentButtons">
+      <div class="contentButtons">
       <button>&lt; Home</button>
       <button>Next &gt;</button>
+      </div>
 
       <h2>HTML Tags Ordered Alphabetically</h2>
       <input type="search" placeholder="Search ..." />
-      <thead></thead>
-      <tbody></tbody>
-      <tfoot></tfoot>
+      
+      <table style="width:100%">
+      
+        <tr>
+          <th><strong>Tag</strong></th>
+        <th><strong>Description</strong></th>
+      </tr>
+      <tr> 
+        <td>&lt;!--...--&gt;</td>
+        <td>Defines a comment</td>
+      </tr>
+      <tr>
+        <td>&lt;!DOCTYPE&gt;</td>
+        <td>Defines the document type</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>&lt;wbr&gt;</td>
+        <td>Defines a possible line-break</td>
+      </tr>
+    </table>
     </div>
+    <div class="contentButtons">
+      <button>&lt; Home</button>
+      <button>Next &gt;</button>
+      </div>
   </body>
 </html>
+
+
+
+<!-- <thead></thead>
+<tbody></tbody>
+<tfoot></tfoot> -->
